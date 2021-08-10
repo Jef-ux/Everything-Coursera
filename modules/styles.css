@@ -1,0 +1,118 @@
+* {
+ 	border-sizing: borderbox;
+ }
+
+h1 {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+
+div {
+	margin: 5px;
+	display: block;
+}
+
+section {
+	border: 1px solid black;
+	margin-right: 5px;
+	padding: 5px;
+	background-color: #7a4e30;
+	float: left;
+	overflow: auto;
+}
+
+p {
+
+	font-family: arial;
+	text-decoration: none;
+	
+}
+
+#p1 {
+	border: 1px solid black;
+	background-color: #00ff00;
+	text-align: center;
+	width: 70px;
+	height: 30px;
+	margin-bottom: 15px;
+	position: relative;
+	top: 0;
+	right: 0;
+}
+#p2 {
+	border: 1px solid black;
+	background-color: #f2ff00;
+	text-align: center;
+	width: 70px;
+	height: 30px;
+	margin-bottom: 15px;
+	position: relative;
+	top: 0;
+	right: 0;
+}
+#p3 {
+	border: 1px black;
+	background-color: #ff6600;
+	text-align: center;
+	width: 70px;
+	height: 30px;
+	margin-bottom: 15px;
+	position: relative;
+	top: 0;
+	right: 0;
+}
+
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3 {
+		float: left;
+		border: 1px solid black;
+	}
+	.col-lg-1 {
+		width: 33.33%;
+	}
+	.col-lg-2 {
+		width: 33.33%;
+	}
+	.col-lg-3 {
+		width: 33.33%;
+	}
+}
+	
+@media (max-width: 991px) and (min-width: 768px) {
+	.col-md-1, .col-md-2, .col-md-3 {
+			float: left;
+			border: 1px solid black;
+		}
+		.col-md-1 {
+			width: 50%;
+		}
+		.col-md-2 {
+			width: 50%;
+		}
+		.col-md-3 {
+			width: 100%
+		}
+}
+
+@media (max-width: 767px) {
+	.col-sm-1, .col-sm-2, .col-sm-3 {
+		float: left;
+		border: 1px solid black;
+	}
+	.col-sm-1 {
+		width: 100%;
+	}
+	.col-sm-2 {
+		width: 100%;
+	}
+	.col-sm-3 {
+		width: 100%;
+	}
+}
